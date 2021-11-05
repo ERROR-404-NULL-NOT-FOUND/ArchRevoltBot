@@ -6,25 +6,14 @@ let client = new Revolt.Client();
 client.on('ready', async () =>
 	console.info(`Logged in as ${client.user.username}!`)
 );
-async function debugLog(message){
-	console.log(message);
-	debug+=message+"\n";
-}
-let debug="";
-
 async function command(command,message){
-	debug="";
+
 	args=message.content.split(" ");
 	if (args[1]==command){
-		debugLog("\nDebug info\n");
-		debugLog("Arguments:");
-		debugLog(args);
 		fs.readFile(command+".js", 'utf8', function(err,data){
-			debugLog(`\nReading from ${command}.js\n`);
-			debugLog("Code:\n\n\033[94;1m"+data+"\033[0m\n");
-			try {debugLog('Attempting to run file');eval(data);debugLog('File run sucsesfully');}
+			try {eval(data);}
 			catch(err){
-			message.channel.sendMessage(`\`\`\`\n ${err.message}\n${err.name}\n\nIssue in ${command}.js\n\`\`\`\nFull debug info: \n\`\`\`\n${debug}\`\`\``);
+				message.channel.sendMessage(`\`\`\`${err}`);
 				console.error(err);
 			}
 		});
