@@ -60,10 +60,10 @@ client.on('message', async message => {
     
 	//Command proccessor, each of these functions checks to see if the given command is equal to the first argument,
 	//The second argument is so that the bot knows which channel to send it in, as well as giving message content, author, etc
-	await command(["-h","--help"],"help",message);
-	await command(["-u","--user"],"user",message);
-	await command(["-g","--guild"],"guild",message);
-	await command(["-e","--eval"],"eval",message);
+	command(["-h","--help"],"help",message);
+	command(["-u","--user"],"user",message);
+	command(["-g","--guild"],"guild",message);
+	command(["-e","--eval"],"eval",message);
 		}
 });
 

@@ -1,0 +1,4 @@
+# Testing Bot Commands
+|Command|Action|Arguments|Example|
+|---------|--------|-----------|--------|
+|-p/--ping|Just the default test command|NULL|sudo -p|

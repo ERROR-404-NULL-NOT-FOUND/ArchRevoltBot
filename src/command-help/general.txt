@@ -1,0 +1,7 @@
+# General Bot Commands
+|         |Help              |User                               |Guild                                                              |
+|---------|------------------|-----------------------------------|-------------------------------------------------------------------|
+|Command  |-h/--help         |-u/--user                          |-g/--guild                                                         |
+|Action   |Shows this command|Shows all availible data for a user|Shows all availible data for the server in which the command is run|
+|Arguments|NULL              |user id (optional)                 |NULL                                                               |
+|Example  |`--help`          |`-u 01FH48GXF663JKTH1R13XRF747`    |`-g`                                                               |

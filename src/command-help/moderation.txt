@@ -1,0 +1,7 @@
+# Moderation Bot Commands
+|         |Warn                           |Kick                           |Ban                            |
+|---------|-------------------------------|-------------------------------|-------------------------------|
+|Command  |-w/--warn                      |-k/--kick                      |-b/--ban                       |
+|Action   |Warns the given user           |Kicks the given user           |Bans the given user            |
+|Arguments|user id                        |user id                        |user id                        |
+|Example  |`-w 01FH48GXF663JKTH1R13XRF747`|`-k 01FH48GXF663JKTH1R13XRF747`|`-b 01FH48GXF663JKTH1R13XRF747`|

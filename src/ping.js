@@ -1,0 +1,1 @@
+message.channel.sendMessage("Pong!")

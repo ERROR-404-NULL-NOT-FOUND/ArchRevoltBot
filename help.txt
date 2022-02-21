@@ -1,0 +1,13 @@
+# General Bot Commands
+|Command|Action|Arguments|Example|
+|---------|--------|-----------|--------|
+|Help|Shows this command|NULL|help|
+|User|Shows all availible data for a user|user id (optional)|user 01FH48GXF663JKTH1R13XRF747|
+|Guild|Shows all availible data for the server|NULL|guild|
+
+# $\color{red}\textsf{Moderation Bot commands}$
+|Command|Action|Arguments|Example|
+|---------|--------|-----------|--------|
+|Warn|Warns the given user|user id|warn 01FH48GXF663JKTH1R13XRF747|
+|Kick|Kicks the given user|user id|kick 01FH48GXF663JKTH1R13XRF747|
+|Ban|Bans the given user|user id|ban 01FH48GXF663JKTH1R13XRF747|

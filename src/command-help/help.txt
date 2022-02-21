@@ -1,0 +1,6 @@
+# Command catagories
+|Title     |Description                               |
+|----------|------------------------------------------|
+|General   |As the name implies, its for general stuff|
+|Testing   |Stuff like ping to test if the bot works  |
+|Moderation|Moderation commands                       |
